@@ -28,9 +28,9 @@ function makeSelect(name, minRange, maxRange) //format for menu quantity selecti
 {
 	var t= "";
 	t = "<select name='" + name + "' size='1'>";
-	for (j=minRange; j<=maxRange; j++)
+	for (j = minRange; j <= maxRange; j++)
 	   t += "<option>" + j + "</option>";
-	t+= "</select>"; 
+	t += "</select>"; 
 	return t;
 }
 
@@ -38,6 +38,8 @@ function makeSelect(name, minRange, maxRange) //format for menu quantity selecti
 <header>
 	<h1 font-size = 30px> &nbsp; Jade Delight</h1>
 </header>
+
+<h2><i>Order Form:</i></h2>
 <form>
 <p>First Name: <input type="text"  name='fname' /></p>
 <p>Last Name*:  <input type="text"  name='lname' /></p>

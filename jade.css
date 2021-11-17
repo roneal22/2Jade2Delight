@@ -2,8 +2,8 @@ body{
 	text-align: center;
 	width: 100%;
 	float: left;
-	background-color:;
-	margin-top:15%;
+	background-color: #99dbd3;
+	margin-top: 10px;
 }
 
 header{
@@ -16,4 +16,9 @@ header{
 	right:0;
 	align="left";
 	padding-left:0px;
+}
+
+form{
+	text-align: center;
+	border: 3px solid #000000;
 }
