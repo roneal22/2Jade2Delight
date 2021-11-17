@@ -1,0 +1,19 @@
+body{
+	text-align: center;
+	width: 100%;
+	float: left;
+	background-color:;
+	margin-top:15%;
+}
+
+header{
+	background-color: #00a592;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right:0;
+	align="left";
+	padding-left:0px;
+}
